@@ -1,0 +1,12 @@
+#cashFlowContainer {
+  border-left: 1px solid #eee;
+}
+
+#containerFixed {
+  float: left;
+  height: 500px;
+}
+#recordsContainer {
+  height: 500px;
+  overflow: auto;
+}
