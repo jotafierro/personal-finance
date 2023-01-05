@@ -24,7 +24,7 @@ const drawRecords = (records) => {
     const cardRecord = document.createElement('div')
     cardRecord.classList.add('card', 'w-75', 'mb-3')
     cardRecord.innerHTML = `
-      <div class="card-body">
+      <div class="card-body ${record.type}">
         <h5 class="card-title">$${dollarFormat(record.amount)}</h5>
         <p class="card-text">type: ${record.type}</p>
         <p class="card-text">category: ${record.category.name}</p>

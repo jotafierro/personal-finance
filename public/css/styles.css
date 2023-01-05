@@ -10,3 +10,11 @@
   height: 500px;
   overflow: auto;
 }
+
+.income {
+  background-color: rgb(81, 220, 121);
+}
+.expense {
+  color: white;
+  background-color: rgb(218, 152, 162);
+}
